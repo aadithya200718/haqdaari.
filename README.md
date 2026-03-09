@@ -352,7 +352,27 @@ A scheme is eligible if the citizen scores 70% or above across all applicable cr
 
 ---
 
-## AWS Cloud Deployment
+## Easy Deployment (Render + Vercel)
+
+The easiest way to deploy HaqDaari is using **Render** for the backend and **Vercel** for the frontend. All configuration files (`render.yaml`, `vercel.json`) are already included.
+
+### Step 1: Deploy Backend (Render)
+1. Push your code to a GitHub repository.
+2. Go to [Render Dashboard](https://dashboard.render.com/) -> **New** -> **Blueprint**.
+3. Connect your repository. Render will automatically detect `render.yaml`.
+4. In the Render dashboard, provide your AWS credentials (`AWS_ACCESS_KEY_ID`, `AWS_SECRET_ACCESS_KEY`) as environment variables if using AWS Bedrock/DynamoDB.
+5. Click **Apply**. Once deployed, copy your backend URL (e.g., `https://haqdaari-backend.onrender.com/api`).
+
+### Step 2: Deploy Frontend (Vercel)
+1. Go to [Vercel Dashboard](https://vercel.com/new) -> **Add New** -> **Project**.
+2. Import your GitHub repository.
+3. Set the **Root Directory** to `frontend`. Ensure **Framework Preset** is `Vite`.
+4. Under **Environment Variables**, add `VITE_API_BASE` and set it to your Render backend API URL (e.g., `https://haqdaari-backend.onrender.com/api`).
+5. Click **Deploy**.
+
+---
+
+## Full AWS Cloud Deployment (Terraform)
 
 ### Prerequisites
 
