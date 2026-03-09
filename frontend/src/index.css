@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --brand: #f5a623;
+  --trust: #1a56db;
+  --success: #10b981;
+  --warning: #fbbf24;
+  --destructive: #ef4444;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  min-height: 100dvh;
+}
+
+/* Indian number formatting helper */
+.font-tabular {
+  font-variant-numeric: tabular-nums;
+}

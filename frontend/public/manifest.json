@@ -1,0 +1,19 @@
+{
+  "name": "HaqDaari - आपका हक़, आपकी पहचान",
+  "short_name": "HaqDaari",
+  "description": "Zero-Touch Government Scheme Eligibility Engine for Bharat",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFF8F0",
+  "theme_color": "#F5A623",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/vite.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["government", "finance", "utilities"]
+}
