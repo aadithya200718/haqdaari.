@@ -230,9 +230,10 @@ The system provides zero-touch eligibility detection, scheme arbitrage analysis,
 1. THE MVP SHALL support 10,000 total users with up to 1,000 concurrent users
 2. THE MVP SHALL include all 5 core features: Zero-Touch Eligibility Engine, 
    Scheme Arbitrage Detector, Shadow Mode, CSC Co-Pilot, and WhatsApp + PWA interface
-3. THE MVP SHALL support 100 high-impact central government schemes initially
-4. THE MVP SHALL operate in 3 pilot states (to be determined)
-5. THE MVP SHALL include basic analytics dashboard
-6. Phase 2 SHALL expand scheme coverage from 100 to 750+ schemes, add detailed 
+   this is the good one i guess
+4. THE MVP SHALL support 100 high-impact central government schemes initially
+5. THE MVP SHALL operate in 3 pilot states (to be determined)
+6. THE MVP SHALL include basic analytics dashboard
+7. Phase 2 SHALL expand scheme coverage from 100 to 750+ schemes, add detailed 
    analytics dashboard for welfare officers, and scale to 1 crore users
 
